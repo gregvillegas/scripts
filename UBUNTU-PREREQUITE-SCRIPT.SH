@@ -18,8 +18,8 @@ read HOSTNAME
 ### Enter IP Address
 echo -n "Please enter your Public IP Address of the server: "
 read IPADDRESS
-echo -n "Allow your IP Address to the firewall"
-echo -n "You can use https://www.whatismyip.com/ to check your Public IP Address"
+echo "Allow your IP Address to the firewall"
+echo "You can use https://www.whatismyip.com/ to check your Public IP Address"
 echo -n "Please enter the Public IP Address that will access this server: "
 read IPADDRESS2
 
